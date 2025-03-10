@@ -1,9 +1,9 @@
 {
   "name": "@repo/prisma",
   "version": "1.0.0",
-  "main": "index.js",
-  "exports" : {
-    "./client" : "./prisma/src/index.ts"
+  "main": "./prisma/src/index.ts",
+  "exports": {
+    "./client": "./prisma/src/index.ts"
   },
   "keywords": [],
   "devDependencies": {
